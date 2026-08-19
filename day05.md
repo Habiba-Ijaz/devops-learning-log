@@ -7,4 +7,4 @@ Today I learned:
 - How to search for a specific process (grep)
 - How to stop a process (kill)
 
-Confusing part: I was confused about the difference between ps -el | grep <process name> and ps aux | grep <process name> commands.
+Confusing part: I was confused about the difference between ps -el | grep <process name> and ps aux | grep <process name> commands. Understanding how to run an app and still use terminal at the same time (learned about running apps from GUI instead of terminal).
