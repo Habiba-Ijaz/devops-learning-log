@@ -1,0 +1,10 @@
+name: My First Automation
+
+on: push
+
+jobs:
+  say-hello:
+    run-on: ubuntu-latest
+    steps:
+      - name: Print a message 
+        run: echo ""Hello Habiba, GitHub Actions is working!"
