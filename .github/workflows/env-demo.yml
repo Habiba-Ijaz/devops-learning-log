@@ -1,0 +1,12 @@
+name: Environment Variable Demo
+
+on: push
+
+jobs:
+  show-env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set and use a variable
+        env:
+          MY_NAME: Habiba
+        run: echo "Hello, my name is $MY_NAME"
