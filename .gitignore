@@ -1,0 +1,7 @@
+*.pem
+*.env
+.env
+*.tfstate
+*.tfstate.*
+.terraform/
+.aws/
